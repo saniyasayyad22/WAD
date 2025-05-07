@@ -1,3 +1,10 @@
+npx create-react-app hello-app
+cd hello-app
+npm start
+
+
+
+
 import React,{useState} from 'react'
 function Counter(){
   let[count,setCount]=useState(0);
