@@ -1,0 +1,7 @@
+git init
+git add .
+git commit -m "Initial React App"
+git remote add origin https://github.com/your-username/my-reactapp.git
+git branch -M main
+git pull origin main --rebase
+git push -u origin main
